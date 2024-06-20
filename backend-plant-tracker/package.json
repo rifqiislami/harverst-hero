@@ -1,0 +1,14 @@
+{
+  "name": "plant-tracker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^6.0.0",
+    "@hapi/hapi": "^20.1.2",
+    "dotenv": "^10.0.0"
+  }
+}
